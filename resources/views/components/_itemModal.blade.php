@@ -111,7 +111,7 @@
                         case 'delete':
                             return 'delete';
                         case 'edit':
-                            return 'patch';
+                            return 'PATCH';
                         default:
                             return 'post'
                     }
